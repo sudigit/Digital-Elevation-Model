@@ -1,0 +1,5 @@
+numpy
+pillow
+streamlit
+plotly>=6.0
+matplotlib   # only needed for command-line mode: python dem.py
