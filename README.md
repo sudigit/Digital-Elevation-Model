@@ -22,7 +22,7 @@ This project computes a 3D Digital Elevation Model (DEM) from a pair of stereo i
   - Interactive 3D surface plot with zoom, rotation, contour projections, vertical exaggeration, and custom colormaps.
   - One-click `.npy` elevation array export.
 - **Command-Line Interface (CLI)**: Run headless or generate standalone Matplotlib figures with multi-panel views and 3D surface plots.
-- **Bundled Sample Dataset**: Includes high-resolution lunar stereo imagery (`images/moon1_left.tif`, `images/moon1_right.tif`).
+- **Bundled Sample Dataset**: Includes high-resolution lunar stereo imagery (`images/moon1_left.tif`, `images/moon1_right.tif`) sourced from [NASA SVS #3531](https://svs.gsfc.nasa.gov/3531/).
 
 ---
 
@@ -193,6 +193,19 @@ All dependencies are standard and lightweight:
 
 ---
 
+## 📚 References & Data Sources
+
+### Data Sources
+- **Lunar Stereo Imagery**: [NASA's Scientific Visualization Studio (SVS Entry #3531)](https://svs.gsfc.nasa.gov/3531/) — High-resolution lunar surface stereo photography captured by the Apollo metric mapping cameras.
+
+### Algorithms & Literature
+- **Semi-Global Matching (SGM)**:
+  - [Semi-Global Matching Tutorial](https://engineering.purdue.edu/kak/Tutorials/SemiGlobalMatching.pdf) — Prof. Avi Kak, Purdue University (an accessible tutorial on directional dynamic programming for stereo vision).
+  - Hirschmüller, H. (2008). *Stereo Processing by Semiglobal Matching and Mutual Information*. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 30(2), 328–341.
+
+---
+
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
